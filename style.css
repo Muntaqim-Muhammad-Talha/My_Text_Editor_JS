@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: seagreen;
+    width: 900px;
+    margin: auto;
+    padding: 18px 50px;
+    box-shadow: -1px 10px 500px -2px gray;
+    /* border: 0.8px solid #000; */
+    border-radius: 8px;
+    margin-top: 50px;
+}
+.container h1{
+    color: gold;
+    text-align: center;
+    font-family: monospace;
+    margin-bottom: 8px;
+}
+.editor{
+    background-color: darkseagreen;
+    padding: 8px 16px;
+}
+.btn-performs{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 8px;
+    align-items: center;
+    border-bottom: 2px solid seagreen;
+    margin-bottom: 12px;
+}
+.btn-con-1 button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 18px;
+    padding: 8px;
+}
+.btn-con-1 button:focus{
+    background-color: seagreen;
+    color: gold;
+    border-radius: 8px;
+}
+.btn-con-2 button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 18px;
+    padding: 8px;
+}
+.btn-con-2 button:focus{
+    background-color: seagreen;
+    color: gold;
+    border-radius: 8px;
+}
+.btn-con-3 button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 18px;
+    padding: 8px;
+    font-weight: bolder;
+}
+.btn-con-3 button:focus{
+    background-color: seagreen;
+    color: gold;
+    border-radius: 8px;
+}
+.text{
+    width: 868px;
+    height: 350px;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+.input-num{
+    width: 50px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.input-color{
+    border: none;
+    outline: none;
+    padding: 2px;
+}
